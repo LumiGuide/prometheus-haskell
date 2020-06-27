@@ -2,6 +2,7 @@
 
 module Prometheus.Export.Text (
     exportMetricsAsText
+,   exportSampleGroup
 ) where
 
 import Prometheus.Info
